@@ -1,16 +1,19 @@
 function checkIfExist(arr: number[]): boolean {
-    let result = {}
-    for (let num of arr) {
-        if(result[2 * num] || (num % 2 === 0 && result[num / 2])){
+    let setData = new Set();
+
+    for (let n of arr) {
+        let  double = n * 2;
+
+        if (setData.has(double) || setData.has(n /2)) {
             return true;
         }
-        result[num] = true
+
+        setData.add(n);
     }
 
     return false;
-    
 };
 
 
-let arr: number[] = [10,2,5,3];
+let arr: number[] = [10,10,5,3];
 console.log(checkIfExist(arr));

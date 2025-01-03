@@ -8,7 +8,7 @@ function waysToSplitArray(nums: number[]): number {
         leftSum += nums[i]
         let rigthSum = totalSum - leftSum
 
-        if(leftSum > rigthSum){
+        if(leftSum >= rigthSum){
             countValidSplit++;
         }
     }

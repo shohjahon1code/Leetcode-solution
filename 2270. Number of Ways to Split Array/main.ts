@@ -3,7 +3,7 @@ function waysToSplitArray(nums: number[]): number {
     const totalSum = nums.reduce((sum, num) => sum + num, 0);
     let leftSum = 0
     let countValidSplit = 0
-
+ 
     for (let i = 0; i < n - 1; i++) {
         leftSum += nums[i]
         let rigthSum = totalSum - leftSum

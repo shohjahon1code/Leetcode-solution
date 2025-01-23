@@ -15,7 +15,3 @@ function isBalanced(num: string): boolean {
     return even === odd
 };
 
-
-let num = "24123"
-
-console.log(isBalanced(num));

@@ -13,6 +13,3 @@ function largestOddNumber(num: string): string {
     return ''
 };
 
-
-let  num = "52"
-console.log(largestOddNumber(num));

@@ -10,7 +10,6 @@ function isPalindrome(s: string): boolean {
     return cleaned === cleaned.split('').reverse().join('')
 };
 
-let s = "A man, a plan, a canal: Panama"
 
 function isAlphanumeric(char: string): boolean {
     let code = char.charCodeAt(0)
@@ -25,6 +24,3 @@ function isAlphanumeric(char: string): boolean {
 
     return false
 }
-
-
-console.log(isPalindrome(s));

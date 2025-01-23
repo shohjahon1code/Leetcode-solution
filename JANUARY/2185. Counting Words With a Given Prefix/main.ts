@@ -10,5 +10,3 @@ function prefixCount(words: string[], pref: string): number {
     return result
 };
 
-let words = ["pay","attention","practice","attend"], pref = "at"
-console.log(prefixCount(words, pref));

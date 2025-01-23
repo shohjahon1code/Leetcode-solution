@@ -13,6 +13,3 @@ function areOccurrencesEqual(s: string): boolean {
 
     return frequency.every((freq: number) => freq === frequency[0]);
 };
-
-let s = "abacbc"
-console.log(areOccurrencesEqual(s));

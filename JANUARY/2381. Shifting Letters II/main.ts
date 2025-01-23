@@ -29,7 +29,3 @@ function shiftingLetters(s: string, shifts: number[][]): string {
 
     return result
 };
-
-let s = "abc", shifts = [[0,1,0],[1,2,1],[0,2,1]]
-
-console.log(shiftingLetters(s, shifts));

@@ -19,6 +19,3 @@ function canConstruct(s: string, k: number): boolean {
     return oddCount <= k
 
 };
-
-let s = "annabelle", k = 2
-console.log(canConstruct(s, k));
